@@ -1,0 +1,55 @@
+= DefMinus vim colorscheme
+:author: Maxim Kim
+:experimental:
+:icons: font
+:autofit-option:
+:source-highlighter: rouge
+:rouge-style: github
+:source-linenums-option:
+:imagesdir: images
+
+[.lead]
+I do really like white backgrounds. Not gray, not "light" -- just plane
+simple white background. The one default GVim provides. 
+
+[.lead]
+Hmm... Default GVim colors are too colorful. And bold.
+
+[.lead]
+This has to be fixed. Because why not?
+
+[.lead]
+GUI and 256color terms only.
+
+== Screenshots
+
+
+image::img_README_1.png[]
+
+image::img_README_2.png[]
+
+image::img_README_3.png[]
+
+image::img_README_4.png[]
+
+== Installation
+
+Manual::
+Copy `defminus.vim` to your `.vim/colors/` folder.
+
+Vim8 packages::
+[source,bash]
+git clone https://github.com/habamax/vim-colors-defminus.git ~/.vim/pack/my-packages/start/vim-colors-defminus
+
+or for Windows:
+
+[source,bash]
+git clone https://github.com/habamax/vim-colors-defminus.git %USERPROFILE%/vimfiles/pack/my-packages/start/vim-colors-defminus
+
+Plugin managers::
+See plugin manager documentation.
+
+
+== I want black background!
+
+Check https://github.com/habamax/vim-colors-defnoche[defnoche] colorscheme.
