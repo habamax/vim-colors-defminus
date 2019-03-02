@@ -395,6 +395,20 @@ hi link Lf_hl_funcDirname Comment
 hi link Lf_hl_rgFilename Comment
 hi link Lf_hl_rgTagFile Comment
 
+"" fzf
+hi fzfFg ctermfg=8
+hi fzfFgPlus ctermfg=4
+hi fzfHl ctermfg=5
+hi fzfPrompt ctermfg=4
+let g:fzf_colors = { 
+  \ 'fg':      ['fg', 'fzfFg'],
+  \ 'fg+':     ['fg', 'fzfFgPlus'],
+  \ 'pointer': ['fg', 'fzfFgPlus'],
+  \ 'prompt':  ['fg', 'fzfPrompt'],
+  \ 'hl':      ['fg', 'fzfHl'],
+  \ 'hl+':     ['fg', 'fzfHl'] }
+
+
 "" CtrlP
 " hi CtrlPMatch guifg=#1540AD gui=bold
 
