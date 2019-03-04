@@ -307,10 +307,10 @@ hi link markdownCodeDelimiter markdownCode
 hi link asciidoctorListMarker Special
 
 "" Diff
-hi diffAdd guibg=#c9f9c9
-hi diffChange guibg=#f9f9c9
-hi diffText guibg=#f9d999 guifg=NONE gui=NONE
-hi diffDelete guibg=#f9c9c9 guifg=#707070 gui=NONE
+hi diffAdd guibg=#c9f9c9 ctermbg=194
+hi diffChange guibg=#f9f9c9 ctermbg=230
+hi diffText guibg=#f9d999 guifg=NONE gui=NONE ctermbg=223 ctermfg=NONE cterm=NONE
+hi diffDelete guibg=#f9c9c9 guifg=#707070 gui=NONE ctermbg=224 ctermfg=243 cterm=NONE
 
 "" fugitive
 hi! link fugitiveHeader DefMinusBold
