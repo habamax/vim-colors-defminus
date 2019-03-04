@@ -239,8 +239,7 @@ hi link yamlKeyValueDelimiter Statement
 hi link sqlKeyword Statement
 
 " java
-hi javaCommentTitle guifg=#909090 gui=bold,italic ctermfg=lightgrey
-" hi javaCommentTitle guifg=#909090 gui=bold ctermfg=lightgrey
+hi javaCommentTitle guifg=#909090 gui=bold,italic ctermfg=246
 hi link javaExternal Statement
 hi link javaScopeDecl Statement
 hi link javaClassDecl Statement
@@ -362,7 +361,7 @@ hi link helpHyperTextEntry Statement
 hi link helpHyperTextJump Underlined
 hi link helpExample Constant
 hi link helpURL Underlined
-hi helpSectionDelim guifg=#909090
+hi helpSectionDelim guifg=#909090 ctermfg=246
 hi link helpOption Constant
 
 "" netrw
