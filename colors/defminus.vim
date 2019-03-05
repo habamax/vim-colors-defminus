@@ -127,7 +127,6 @@ hi link vimHiAttrib Constant
 hi link vimHiCtermColor Constant
 " The same as Constant + italic
 hi vimCommentTitle guifg=#a04327 gui=italic ctermfg=130
-" hi vimCommentTitle guifg=#a04327 gui=NONE ctermfg=green
 
 " python
 hi link pythonInclude Statement
@@ -429,3 +428,7 @@ let g:fzf_colors = {
 "" ALE
 hi link ALEWarningSign SignColumn
 hi link ALEErrorSign WarningMsg
+
+"" Rest console
+hi link restHost Underlined
+hi link restKeyword Statement
