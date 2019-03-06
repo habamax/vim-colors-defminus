@@ -44,7 +44,7 @@ hi DefMinusBold guibg=NONE guifg=#000000 gui=bold ctermfg=16 ctermbg=NONE cterm=
 hi Normal guibg=#ffffff guifg=#000000 gui=NONE ctermbg=15 ctermfg=16
 hi Cursor guibg=#000000 ctermbg=0
 hi lCursor guibg=#ff0000 ctermfg=12
-hi NonText guibg=NONE guifg=#c0c0c0 ctermfg=250
+hi NonText guibg=NONE guifg=#c0c0c0 gui=NONE ctermfg=250 cterm=NONE
 hi! link SpecialKey NonText
 hi Visual guibg=#add6ff guifg=NONE ctermbg=110 ctermfg=NONE
 
