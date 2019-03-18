@@ -374,7 +374,7 @@ hi link netrwDateSep Normal
 hi link netrwTimeSep Normal
 hi link netrwExe Constant
 hi link netrwDir Directory
-hi link netrwClassify Normal
+hi link netrwClassify Directory
 hi link netrwTreeBar Delimiter
 
 "" quickfix
