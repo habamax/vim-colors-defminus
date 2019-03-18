@@ -75,7 +75,7 @@ hi PmenuSel guibg=#c0c0c0 guifg=#505050 gui=bold ctermbg=250 ctermfg=16
 "" Syntax
 
 " generic group-names
-hi Comment guifg=#909090 gui=italic ctermfg=246
+hi Comment guifg=#909090 gui=NONE ctermfg=246
 
 hi Constant guifg=#a04327 gui=NONE ctermfg=130
 hi String guifg=#399030 gui=NONE ctermfg=2
