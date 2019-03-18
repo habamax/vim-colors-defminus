@@ -125,8 +125,7 @@ hi link vimMapMod vimMapModKey
 hi link vimAutoEvent Constant
 hi link vimHiAttrib Constant
 hi link vimHiCtermColor Constant
-" The same as Constant + italic
-hi vimCommentTitle guifg=#a04327 gui=italic ctermfg=130
+hi link vimCommentTitle Constant
 
 " python
 hi link pythonInclude Statement
@@ -238,7 +237,7 @@ hi link yamlKeyValueDelimiter Statement
 hi link sqlKeyword Statement
 
 " java
-hi javaCommentTitle guifg=#909090 gui=bold,italic ctermfg=246
+hi javaCommentTitle guifg=#909090 gui=bold ctermfg=246
 hi link javaExternal Statement
 hi link javaScopeDecl Statement
 hi link javaClassDecl Statement
