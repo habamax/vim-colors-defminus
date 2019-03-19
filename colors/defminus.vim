@@ -149,6 +149,8 @@ hi link luaFunction Statement
 
 " elixir
 hi link elixirModuleDefine Statement
+hi link elixirPrivateDefine Statement
+hi link elixirMacroDefine Statement
 hi link elixirInclude Statement
 hi link elixirDefine Statement
 hi link elixirAtom Constant
@@ -157,7 +159,14 @@ hi link elixirBlockDefinition Statement
 hi link elixirFunctionDeclaration Normal
 hi link elixirStringDelimiter String
 hi link elixirMapDelimiter Special
-hi link elixirOperator Normal
+hi link elixirOperator Identifier
+hi link elixirDocString Comment
+hi link elixirDocStringDelimiter Comment
+hi link elixirDocTest Identifier
+hi link elixirVariable Constant
+hi link elixirUnusedVariable Comment
+hi link elixirKeyword Statement
+hi link elixirId Normal
 
 " properties
 hi link jpropertiesIdentifier Statement
