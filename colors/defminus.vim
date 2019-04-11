@@ -444,8 +444,8 @@ hi link ALEWarningSign SignColumn
 hi link ALEErrorSign WarningMsg
 
 "" Rest console
-hi link restHost Underlined
-hi link restKeyword Statement
+hi! link restHost Underlined
+hi! link restKeyword Statement
 
 "" Plantuml https://github.com/aklt/plantuml-syntax
 hi link plantumlPreProc Statement
