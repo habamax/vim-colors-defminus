@@ -54,8 +54,8 @@ hi! link Todo Title
 
 "" UI
 hi Statusline guibg=#3c3c3c guifg=#ffffff gui=NONE ctermbg=237 ctermfg=15 cterm=NONE
-hi StatuslineNC guibg=#5c5c5c guifg=#cbcbcb gui=NONE ctermbg=241 ctermfg=252 cterm=NONE
-hi VertSplit guibg=#5c5c5c guifg=#5c5c5c gui=NONE ctermbg=241 ctermfg=241 cterm=NONE
+hi StatuslineNC guibg=#8c8c8c guifg=#ffffff gui=NONE ctermbg=7 ctermfg=255 cterm=NONE
+hi VertSplit guibg=#8c8c8c guifg=#8c8c8c gui=NONE ctermbg=7 ctermfg=241 cterm=NONE
 hi! link TabLine StatusLineNC
 hi! link TabLineFill TabLine
 hi! link TabLineSel Normal
