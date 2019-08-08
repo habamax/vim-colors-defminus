@@ -70,6 +70,7 @@ hi CursorLineNr guibg=NONE guifg=#000000 gui=NONE ctermbg=NONE ctermfg=16 cterm=
 hi SignColumn guibg=NONE ctermbg=NONE
 hi Pmenu guibg=#eaeaea guifg=#505050 gui=NONE ctermbg=254 ctermfg=239
 hi PmenuSel guibg=#c0c0c0 guifg=#505050 gui=bold ctermbg=250 ctermfg=16
+hi QuickFixLine guibg=#eaeaea guifg=#505050 gui=none ctermbg=254 ctermfg=240
 
 
 "" Syntax
