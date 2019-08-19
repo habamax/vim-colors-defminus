@@ -332,11 +332,13 @@ hi diffDelete guibg=#f9c9c9 guifg=#707070 gui=NONE ctermbg=224 ctermfg=243 cterm
 
 "" fugitive
 hi! link fugitiveUnstagedHeading DefMinusBold
+hi! link fugitiveStagedHeading DefMinusBold
 hi! link fugitiveHeader DefMinusBold
 hi! link fugitiveHeading DefMinusBold
 hi! link gitKeyword DefMinusBold
 hi link gitIdentityKeyword gitKeyword
 hi link fugitiveUnstagedModifier Statement
+hi link fugitiveStagedModifier Statement
 hi link fugitiveModifier Statement
 hi link fugitiveSymbolicRef Constant
 hi link diffIndexLine Identifier
