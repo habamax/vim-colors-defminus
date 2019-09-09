@@ -323,6 +323,7 @@ hi link markdownCodeDelimiter markdownCode
 
 " asciidoctor
 hi link asciidoctorListMarker Special
+hi link asciidoctorOption Special
 
 "" Diff
 hi diffAdd guibg=#c9f9c9 ctermbg=194
