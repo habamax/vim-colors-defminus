@@ -411,6 +411,7 @@ hi link netrwExe Constant
 hi link netrwDir Directory
 hi link netrwClassify Directory
 hi link netrwTreeBar Delimiter
+hi link netrwMarkFile Statement
 
 "" quickfix
 hi link qfFilename Comment
