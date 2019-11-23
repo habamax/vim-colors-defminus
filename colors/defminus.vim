@@ -488,30 +488,33 @@ hi link Lf_hl_bufDirname Comment
 hi link Lf_hl_funcDirname Comment
 hi link Lf_hl_rgFilename Comment
 hi link Lf_hl_rgTagFile Comment
+hi link Lf_hl_tagFile Comment
+hi link Lf_hl_tagType Comment
+hi link Lf_hl_tagKeyword Comment
+hi link Lf_hl_buftagKind Comment
+hi link f_hl_buftagScopeType Comment
+hi link f_hl_buftagScope Comment
+hi link f_hl_buftagDirname Comment
+hi link f_hl_buftagCode Comment
+hi link f_hl_helpTagfile Comment
+hi link f_hl_gtagsFileName Comment
 hi Lf_hl_cursorline guifg=#000000 ctermfg=0 
 
-let s:leaderf_modes = [
-			\'File', 'Buffer', 'Mru', 'Help', 'Rg', 
-			\'Line', 'Tag', 'BufTag', 'Function', 'Cmd_History',
-			\'Colorscheme', 'Self'
-			\]
-for lf_mode in s:leaderf_modes
-	execute 'hi Lf_hl_'.lf_mode.'_stlName guibg=#8c8c8c guifg=#ffffff gui=bold ctermbg=237 ctermfg=250'
-	execute 'hi Lf_hl_'.lf_mode.'_stlMode guibg=#8c8c8c guifg=#ffffff gui=NONE ctermbg=237 ctermfg=250'
-	execute 'hi Lf_hl_'.lf_mode.'_stlCategory guibg=#8c8c8c guifg=#ffffff gui=NONE ctermbg=237 ctermfg=250'
-	execute 'hi Lf_hl_'.lf_mode.'_stlCwd guibg=#3c3c3c guifg=#ffffff gui=NONE ctermbg=237 ctermfg=15'
-	execute 'hi Lf_hl_'.lf_mode.'_stlSeparator0 guibg=#3c3c3c guifg=#ffffff gui=NONE ctermbg=237 ctermfg=250'
-	execute 'hi Lf_hl_'.lf_mode.'_stlSeparator1 guibg=#3c3c3c guifg=#ffffff gui=NONE ctermbg=237 ctermfg=250'
-	execute 'hi Lf_hl_'.lf_mode.'_stlSeparator2 guibg=#3c3c3c guifg=#ffffff gui=NONE ctermbg=237 ctermfg=250'
-	execute 'hi Lf_hl_'.lf_mode.'_stlSeparator3 guibg=#3c3c3c guifg=#ffffff gui=NONE ctermbg=237 ctermfg=250'
-	execute 'hi Lf_hl_'.lf_mode.'_stlSeparator4 guibg=#3c3c3c guifg=#ffffff gui=NONE ctermbg=237 ctermfg=250'
-	execute 'hi Lf_hl_'.lf_mode.'_stlSeparator5 guibg=#3c3c3c guifg=#ffffff gui=NONE ctermbg=237 ctermfg=250'
-	execute 'hi Lf_hl_'.lf_mode.'_stlLineInfo guibg=#8c8c8c guifg=#ffffff gui=NONE ctermbg=237 ctermfg=250'
-	execute 'hi Lf_hl_'.lf_mode.'_stlNameOnlyMode guibg=#8c8c8c guifg=#ffffff gui=NONE ctermbg=237 ctermfg=250'
-	execute 'hi Lf_hl_'.lf_mode.'_stlRegexMode guibg=#8c8c8c guifg=#ffffff gui=NONE ctermbg=237 ctermfg=250'
-	execute 'hi Lf_hl_'.lf_mode.'_stlFullPathMode guibg=#8c8c8c guifg=#ffffff gui=NONE ctermbg=237 ctermfg=250'
-	execute 'hi Lf_hl_'.lf_mode.'_stlFuzzyMode guibg=#8c8c8c guifg=#ffffff gui=NONE ctermbg=237 ctermfg=250'
-	execute 'hi Lf_hl_'.lf_mode.'_stlTotal guibg=#8c8c8c guifg=#ffffff gui=NONE ctermbg=237 ctermfg=15'
-	execute 'hi Lf_hl_'.lf_mode.'_stlBlank guibg=#8c8c8c guifg=#ffffff gui=NONE ctermbg=237 ctermfg=15'
-endfor
-
+" Leaderf "chrome"
+hi Lf_hl_stlName guibg=#8c8c8c guifg=#ffffff gui=bold ctermbg=237 ctermfg=250
+hi Lf_hl_stlMode guibg=#8c8c8c guifg=#ffffff gui=NONE ctermbg=237 ctermfg=250
+hi Lf_hl_stlCategory guibg=#8c8c8c guifg=#ffffff gui=NONE ctermbg=237 ctermfg=250
+hi Lf_hl_stlCwd guibg=#3c3c3c guifg=#ffffff gui=NONE ctermbg=237 ctermfg=15
+hi Lf_hl_stlSeparator0 guibg=#3c3c3c guifg=#ffffff gui=NONE ctermbg=237 ctermfg=250
+hi Lf_hl_stlSeparator1 guibg=#3c3c3c guifg=#ffffff gui=NONE ctermbg=237 ctermfg=250
+hi Lf_hl_stlSeparator2 guibg=#3c3c3c guifg=#ffffff gui=NONE ctermbg=237 ctermfg=250
+hi Lf_hl_stlSeparator3 guibg=#3c3c3c guifg=#ffffff gui=NONE ctermbg=237 ctermfg=250
+hi Lf_hl_stlSeparator4 guibg=#3c3c3c guifg=#ffffff gui=NONE ctermbg=237 ctermfg=250
+hi Lf_hl_stlSeparator5 guibg=#3c3c3c guifg=#ffffff gui=NONE ctermbg=237 ctermfg=250
+hi Lf_hl_stlLineInfo guibg=#8c8c8c guifg=#ffffff gui=NONE ctermbg=237 ctermfg=250
+hi Lf_hl_stlNameOnlyMode guibg=#8c8c8c guifg=#ffffff gui=NONE ctermbg=237 ctermfg=250
+hi Lf_hl_stlRegexMode guibg=#8c8c8c guifg=#ffffff gui=NONE ctermbg=237 ctermfg=250
+hi Lf_hl_stlFullPathMode guibg=#8c8c8c guifg=#ffffff gui=NONE ctermbg=237 ctermfg=250
+hi Lf_hl_stlFuzzyMode guibg=#8c8c8c guifg=#ffffff gui=NONE ctermbg=237 ctermfg=250
+hi Lf_hl_stlTotal guibg=#8c8c8c guifg=#ffffff gui=NONE ctermbg=237 ctermfg=15
+hi Lf_hl_stlBlank guibg=#3c3c3c guifg=#ffffff gui=NONE ctermbg=237 ctermfg=15
