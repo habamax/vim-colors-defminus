@@ -63,7 +63,7 @@ hi! link TabLineSel Normal
 hi WildMenu guibg=#ffff00 guifg=#000000 gui=NONE ctermbg=11 ctermfg=16
 hi Folded guibg=#f5f5f5 guifg=#505050 gui=NONE ctermbg=255 ctermfg=238 cterm=NONE
 hi! link FoldColumn Folded
-hi CursorLine guibg=#eaeaea ctermbg=254 cterm=NONE
+hi CursorLine guibg=#eeeeee ctermbg=254 cterm=NONE
 hi! link CursorColumn CursorLine
 hi LineNr guibg=NONE guifg=#909090 ctermbg=NONE ctermfg=245
 hi CursorLineNr guibg=NONE guifg=#000000 gui=NONE ctermbg=NONE ctermfg=16 cterm=NONE
@@ -71,9 +71,11 @@ hi SignColumn guibg=NONE ctermbg=NONE
 " hi LineNr guibg=#eaeaea guifg=#909090 ctermbg=254 ctermfg=245
 " hi CursorLineNr guibg=#eaeaea guifg=#000000 gui=NONE ctermbg=254 ctermfg=16 cterm=NONE
 " hi SignColumn guibg=#eaeaea ctermbg=254
-hi Pmenu guibg=#eaeaea guifg=#505050 gui=NONE ctermbg=254 ctermfg=239
-hi PmenuSel guibg=#c0c0c0 guifg=#505050 gui=bold ctermbg=250 ctermfg=16
-hi QuickFixLine guibg=#eaeaea guifg=#505050 gui=none ctermbg=254 ctermfg=240
+hi Pmenu guibg=#eeeeee guifg=#3a3a3a gui=NONE ctermbg=254 ctermfg=239
+hi PmenuSel guibg=#d0d0d0 guifg=#1c1c1c gui=NONE ctermbg=252 ctermfg=234
+hi PmenuSbar guibg=#bcbcbc ctermbg=250
+hi PmenuThumb guibg=#585858 ctermbg=250
+hi QuickFixLine guibg=#eeeeee guifg=#505050 gui=none ctermbg=254 ctermfg=240
 hi! link ColorColumn CursorLine
 hi EndOfBuffer guifg=#bcbcbc ctermbg=250
 
