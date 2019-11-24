@@ -435,7 +435,17 @@ let g:fzf_colors = {
 
 
 "" CtrlP
-" hi CtrlPMatch guifg=#1540AD gui=bold
+hi! link CtrlPMode1 StatusLine
+hi! link CtrlPMode2 StatusLine
+hi CtrlPMatch guifg=#0000af gui=bold ctermfg=19 cterm=bold
+hi link CtrlPNoEntries WarningMsg
+hi! link CtrlPPrtText Normal
+hi! link CtrlPPrtBase Normal
+hi! link CtrlPBufname Comment
+hi! link CtrlPBufferPath Comment
+hi! link CtrlPTagKind Statement
+hi! link CtrlPTabExtra Comment
+
 
 "" ALE
 hi link ALEWarningSign SignColumn
