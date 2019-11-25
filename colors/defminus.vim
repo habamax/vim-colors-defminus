@@ -531,24 +531,25 @@ hi Lf_hl_stlFuzzyMode guibg=#8c8c8c guifg=#ffffff gui=NONE ctermbg=237 ctermfg=2
 hi Lf_hl_stlTotal guibg=#8c8c8c guifg=#ffffff gui=NONE ctermbg=237 ctermfg=15
 hi Lf_hl_stlBlank guibg=#3c3c3c guifg=#ffffff gui=NONE ctermbg=237 ctermfg=15
 
+
 hi! link Lf_hl_popup_window Normal
 hi! link Lf_hl_popup_inputMode StatusLine 
 hi! link Lf_hl_popup_inputText StatusLineNC
 hi! link Lf_hl_popup_prompt StatusLine
-hi! link Lf_hl_popup_spin Normal
-hi! link Lf_hl_popup_mode StatusLine
+hi! link Lf_hl_popup_spin StatusLine
+hi! link Lf_hl_popup_mode StatusLine 
 hi! link Lf_hl_popup_category StatusLine
 hi! link Lf_hl_popup_cwd StatusLine
-hi! link Lf_hl_popup_separator0 Lf_hl_stlSeparator0
-hi! link Lf_hl_popup_separator1 Lf_hl_stlSeparator1
-hi! link Lf_hl_popup_separator2 Lf_hl_stlSeparator2
-hi! link Lf_hl_popup_separator3 Lf_hl_stlSeparator3
-hi! link Lf_hl_popup_separator4 Lf_hl_stlSeparator4
-hi! link Lf_hl_popup_separator5 Lf_hl_stlSeparator5
+hi! link Lf_hl_popup_separator0 StatusLine
+hi! link Lf_hl_popup_separator1 StatusLine
+hi! link Lf_hl_popup_separator2 StatusLine
+hi! link Lf_hl_popup_separator3 StatusLine
+hi! link Lf_hl_popup_separator4 StatusLine
+hi! link Lf_hl_popup_separator5 StatusLine
 hi! link Lf_hl_popup_lineInfo StatusLine
-hi! link Lf_hl_popup_nameOnlyMode StatusLine
-hi! link Lf_hl_popup_regexMode StatusLine
-hi! link Lf_hl_popup_fullPathMode StatusLine
-hi! link Lf_hl_popup_fuzzyMode StatusLine
+hi! link Lf_hl_popup_nameOnlyMode StatusLine 
+hi! link Lf_hl_popup_regexMode StatusLine 
+hi! link Lf_hl_popup_fullPathMode StatusLine 
+hi! link Lf_hl_popup_fuzzyMode StatusLine 
 hi! link Lf_hl_popup_total StatusLine 
 hi! link Lf_hl_popup_blank StatusLine
