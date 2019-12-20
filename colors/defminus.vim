@@ -115,7 +115,7 @@ hi Type guifg=#000000 gui=NONE ctermfg=16 term=NONE
 " hi! link Structure Type
 " hi! link Typedef Type
 
-hi Special guifg=#00737b gui=NONE ctermfg=darkcyan
+hi Special guifg=#00737b gui=NONE ctermfg=30
 " hi! link SpecialChar Special
 " hi! link Tag Special
 " hi! link Delimiter Special
