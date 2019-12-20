@@ -87,7 +87,7 @@ hi MatchParen guibg=#d7ffd7 ctermbg=194
 hi Comment guifg=#909090 gui=NONE ctermfg=246
 
 hi Constant guifg=#a04327 gui=NONE ctermfg=130
-hi String guifg=#399030 gui=NONE ctermfg=2
+hi String guifg=#399030 gui=NONE ctermfg=28
 " hi! link Character Constant
 " hi! link Number Constant
 " hi! link Boolean Constant
