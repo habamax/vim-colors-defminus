@@ -38,10 +38,10 @@ endif
 let g:colors_name = 'defminus'
 
 "" Helper color groups
-hi DefMinusBold guibg=NONE guifg=#000000 gui=bold ctermfg=16 ctermbg=NONE cterm=bold
+hi DefMinusBold guibg=NONE guifg=#000000 gui=bold ctermfg=0 ctermbg=NONE cterm=bold
 
 "" General
-hi Normal guibg=#ffffff guifg=#000000 gui=NONE ctermbg=15 ctermfg=16
+hi Normal guibg=#ffffff guifg=#000000 gui=NONE ctermbg=15 ctermfg=0
 hi Cursor guibg=#000000 ctermbg=0
 hi lCursor guibg=#ff0000 ctermfg=12
 hi NonText guibg=NONE guifg=#dadada gui=NONE ctermfg=253 cterm=NONE
@@ -77,7 +77,7 @@ hi PmenuSbar guibg=#bcbcbc ctermbg=250
 hi PmenuThumb guibg=#585858 ctermbg=250
 hi QuickFixLine guibg=#eeeeee guifg=#505050 gui=none ctermbg=254 ctermfg=240
 hi! link ColorColumn CursorLine
-hi EndOfBuffer guifg=#bcbcbc ctermbg=250
+hi EndOfBuffer guibg=#ffffff guifg=#bcbcbc ctermbg=15 ctermfg=250
 hi MatchParen guibg=#d7ffd7 ctermbg=194
 
 
