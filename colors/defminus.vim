@@ -334,11 +334,13 @@ hi link markdownCodeDelimiter markdownCode
 " asciidoctor
 hi link asciidoctorTitle Title
 hi link asciidoctorMacro Special
-hi asciidoctorListMarker guifg=#909090
-hi link asciidoctorOption asciidoctorListMarker
-hi link asciidoctorBlock asciidoctorListMarker
+hi link asciidoctorListMarker Statement
+hi link asciidoctorCaption Identifier
+hi asciidoctorOption guifg=#909090
+hi link asciidoctorBlock asciidoctorOption
 hi link asciidoctorBlockOptions asciidoctorBlock
 hi link asciidoctorTableCell asciidoctorBlock
+hi link asciidoctorAttribute Constant
 hi asciidoctorIndented guifg=#585858 ctermfg=240
 hi asciidoctorCode guifg=#585858 guibg=#f0f0f0 ctermfg=240
 
