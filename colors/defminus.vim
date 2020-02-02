@@ -341,8 +341,8 @@ hi link asciidoctorBlock asciidoctorOption
 hi link asciidoctorBlockOptions asciidoctorBlock
 hi link asciidoctorTableCell asciidoctorBlock
 hi link asciidoctorAttribute Constant
-hi asciidoctorIndented guifg=#585858 ctermfg=240
-hi asciidoctorCode guifg=#585858 guibg=#f0f0f0 ctermfg=240
+hi asciidoctorIndented guifg=#000000 guibg=#f0f0f0 ctermfg=240
+hi asciidoctorCode guifg=#000000 guibg=#f0f0f0 ctermfg=240
 
 "" Diff
 hi diffAdd guibg=#c9f9c9 ctermbg=194
