@@ -480,6 +480,7 @@ hi link plantumlKeyword Statement
 hi link plantumlTypeKeyword Statement
 hi link plantumlColonLine String
 hi link plantumlActivityLabel DefNormal
+hi link plantumlActivityThing DefNormal
 hi link plantumlHorizontalArrow Special
 hi link plantumlDirectedOrVerticalArrowLR Special
 hi link plantumlDirectedOrVerticalArrowRL Special
