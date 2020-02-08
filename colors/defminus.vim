@@ -303,6 +303,9 @@ hi link phpType Constant
 " dos batch
 hi link dosbatchImplicit Statement
 
+" golang
+hi goSpaceError guibg=#f0f0f0 ctermbg=255
+
 " sh
 hi link shSet Statement
 hi link shQuote Identifier
