@@ -91,7 +91,7 @@ hi Conceal guifg=#909090 guibg=NONE gui=NONE ctermfg=246
 hi Constant guifg=#a04327 gui=NONE ctermfg=130
 hi String guifg=#399030 gui=NONE ctermfg=28
 
-hi Identifier guifg=#008b8b gui=NONE ctermfg=darkcyan
+hi Identifier guifg=#008787 gui=NONE ctermfg=30
 
 hi Statement guifg=#af00db gui=NONE ctermfg=128
 
