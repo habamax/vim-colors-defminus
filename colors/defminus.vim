@@ -427,6 +427,7 @@ hi link netrwTreeBar Delimiter
 hi link netrwMarkFile Statement
 
 "" dirvish
+hi link dirvishPathTail Directory
 hi link dirvishSuffix Identifier
 hi link dirvishColumnHead Comment
 hi link dirvishPathHead Comment
@@ -513,6 +514,9 @@ hi link DoOutlineLevel9 Identifier
 hi LspErrorHighlight gui=undercurl guisp=red ctermfg=red cterm=bold
 hi LspWarningHighlight gui=undercurl guisp=blue ctermfg=yellow
 
+"" vim-clap
+hi ClapDisplay guibg=#f9f9f9
+hi link ClapCurrentSelection CursorLine
 
 "" LeaderF
 hi link Lf_hl_bufDirname Comment
