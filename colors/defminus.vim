@@ -531,7 +531,7 @@ hi ClapFuzzyMatches10 guifg=#00aa00
 hi ClapFuzzyMatches11 guifg=#00aa00
 hi ClapFuzzyMatches12 guifg=#00aa00
 
-hi link ClapFile Normal
+hi link ClapFile DefNormal
 
 " Clap grep
 hi link ClapFpath Comment
@@ -544,7 +544,7 @@ hi link ClapBuffersNumber Comment
 hi link ClapBuffersFsize Comment
 hi link ClapBuffersLnum Comment
 hi link ClapBuffersExtra SpecialChar
-hi link ClapBuffersFname Normal
+hi link ClapBuffersFname DefNormal
 
 "" LeaderF
 hi link Lf_hl_bufDirname Comment
