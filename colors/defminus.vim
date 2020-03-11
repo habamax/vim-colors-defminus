@@ -498,6 +498,15 @@ hi link dartStorageClass Statement
 hi link dartInterpolation Constant
 hi link dartOperator Statement
 
+"" Godot gdscript
+hi link gdscriptExtend DefNormal
+hi link gdscriptClass DefNormal
+hi link gdscriptBuiltinClass DefNormal
+hi link gdscriptBuiltinStruct DefNormal
+hi link gdscriptBuiltinFunction Statement
+hi link gdscriptSpecial DefNormal
+hi link gdscriptNode PreProc
+
 "" DoOutline
 hi link DoOutlineLevel0 Title
 hi link DoOutlineLevel1 Statement
