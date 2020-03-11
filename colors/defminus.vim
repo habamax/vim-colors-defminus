@@ -527,18 +527,18 @@ hi LspWarningHighlight gui=undercurl guisp=blue ctermfg=yellow
 hi ClapDisplay guibg=#f9f9f9
 hi link ClapCurrentSelection CursorLine
 
-hi ClapFuzzyMatches1 guifg=#00aa00
-hi ClapFuzzyMatches2 guifg=#00aa00
-hi ClapFuzzyMatches3 guifg=#00aa00
-hi ClapFuzzyMatches4 guifg=#00aa00
-hi ClapFuzzyMatches5 guifg=#00aa00
-hi ClapFuzzyMatches6 guifg=#00aa00
-hi ClapFuzzyMatches7 guifg=#00aa00
-hi ClapFuzzyMatches8 guifg=#00aa00
-hi ClapFuzzyMatches9 guifg=#00aa00
-hi ClapFuzzyMatches10 guifg=#00aa00
-hi ClapFuzzyMatches11 guifg=#00aa00
-hi ClapFuzzyMatches12 guifg=#00aa00
+hi ClapFuzzyMatches1 guifg=#ff00ff
+hi ClapFuzzyMatches2 guifg=#ff00ff
+hi ClapFuzzyMatches3 guifg=#ff00ff
+hi ClapFuzzyMatches4 guifg=#ff00ff
+hi ClapFuzzyMatches5 guifg=#ff00ff
+hi ClapFuzzyMatches6 guifg=#ff00ff
+hi ClapFuzzyMatches7 guifg=#ff00ff
+hi ClapFuzzyMatches8 guifg=#ff00ff
+hi ClapFuzzyMatches9 guifg=#ff00ff
+hi ClapFuzzyMatches10 guifg=#ff00ff
+hi ClapFuzzyMatches11 guifg=#ff00ff
+hi ClapFuzzyMatches12 guifg=#ff00ff
 
 hi link ClapFile DefNormal
 
